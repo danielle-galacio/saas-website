@@ -1,0 +1,28 @@
+h1, h2, h3 {
+  font-family: 'Fredoka One', cursive;
+  color: #DD5329;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+header {
+  background-color: #fff;
+}
+
+.btn {
+  padding-top: .15em;
+  padding-bottom: .15em;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #000;
+  background-color: #EFF1F4;
+  border-color: #EFF1F4;
+  color: #000;
+  }
+}
+
+.link-box {
+  color: #000;
+}
