@@ -1,28 +1,67 @@
-h1, h2, h3 {
+html {
+  background-color: #fff;
+  font-family: "Montserrat", serif;
+}
+
+.name {
   font-family: 'Fredoka One', cursive;
   color: #DD5329;
 }
 
-nav {
-  font-family: 'Montserrat', sans-serif;
-  color: #000;
+.masthead {
+  background-color :#FBFAFF;
+  color: #fff;
 }
 
-header {
-  background-color: #fff;
+.logo {
+  text-align: center;
 }
 
-.btn {
-  padding-top: .15em;
-  padding-bottom: .15em;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px #000;
-  background-color: #EFF1F4;
-  border-color: #EFF1F4;
-  color: #000;
+.logo-text {
+  display: inline-block;
+  width: 9em;
+}
+
+.nav {
+  text-align: center;
+}
+
+.bgcolor {
+  background-color: #FBFAFF;
+}
+
+.nav a {
+  font-weight: bold;
+  color: #2177FB;
+  text-decoration: none;
+}
+
+.nav a span {
+  border-bottom: .25rem solid #73A9FC;
+}
+
+.nav a:hover span,
+.nav a span {
+  border-bottom-color: #73A9FC;
+}
+
+.nav a:focus {
+  outline: 3px solid #73A9FC;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
   }
-}
 
-.link-box {
-  color: #000;
+  .nav {
+    text-align: right;
+  }
+
+  .banner,
+  .card {
+    min-height: 0;
+  }
+
 }
