@@ -31,22 +31,34 @@ html {
 }
 
 .nav a {
-  font-weight: bold;
-  color: #2177FB;
+  color: #133852;
   text-decoration: none;
 }
 
-.nav a span {
-  border-bottom: .25rem solid #73A9FC;
+.btn {
+  color: #fff;
+  padding-top: .15em;
+  padding-bottom: .15em;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+  background-color: #2177FB;
+  border-color: #2177FB;
+  color: fff;
+  font-weight: 600;
 }
 
-.nav a:hover span,
-.nav a span {
-  border-bottom-color: #73A9FC;
+.btn:hover {
+  background-color: #133852;
+  border-color: #133852;
 }
+
 
 .nav a:focus {
   outline: 3px solid #73A9FC;
+}
+
+main h2, p {
+  color: #133852;
 }
 
 @media only screen and (min-width: 38em) {
