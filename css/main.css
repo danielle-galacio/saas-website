@@ -1,15 +1,16 @@
 html {
   background-color: #fff;
-  font-family: "Montserrat", serif;
+  font-family: Montserrat, serif;
+  color: #707070;
 }
 
 .name {
-  font-family: 'Fredoka One', cursive;
-  color: #DD5329;
+  font-family: "Fredoka One", cursive;
+  color: #dd5329;
 }
 
 .masthead {
-  background-color :#FBFAFF;
+  background-color: #fbfaff;
   color: #fff;
 }
 
@@ -27,7 +28,7 @@ html {
 }
 
 .bgcolor {
-  background-color: #FBFAFF;
+  background-color: #fbfaff;
 }
 
 .nav a {
@@ -41,9 +42,8 @@ html {
   padding-bottom: .15em;
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
-  background-color: #2177FB;
-  border-color: #2177FB;
-  color: fff;
+  background-color: #e67a72;
+  border-color: #e67a72;
   font-weight: 600;
 }
 
@@ -52,13 +52,21 @@ html {
   border-color: #133852;
 }
 
-
 .nav a:focus {
-  outline: 3px solid #73A9FC;
+  outline: 3px solid #73a9fc;
 }
 
 main h2, h3 {
   color: #133852;
+}
+
+footer a {
+  text-decoration: none;
+  color: #133852;
+}
+
+footer h3 {
+  color: #e67a72;
 }
 
 @media only screen and (min-width: 38em) {
