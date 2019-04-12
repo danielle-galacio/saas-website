@@ -6,7 +6,7 @@ html {
 
 .name {
   font-family: "Fredoka One", cursive;
-  color: #dd5329;
+  color: #133a54;
 }
 
 .masthead {
@@ -28,7 +28,11 @@ html {
 }
 
 .bgcolor {
-  background-color: #fbfaff;
+  background-color: #ffe980;
+}
+
+.graybg {
+  background-color: #eff1f4;
 }
 
 .nav a {
@@ -44,8 +48,8 @@ html {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
   background-color: #e67a72;
   border-color: #e67a72;
-  font-weight: 600;
 }
+
 
 .btn:hover {
   background-color: #133852;
