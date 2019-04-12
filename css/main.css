@@ -73,6 +73,11 @@ footer h3 {
   color: #e67a72;
 }
 
+.current {
+  border-bottom: .3rem solid #133852;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .logo {
