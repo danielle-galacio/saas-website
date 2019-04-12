@@ -1,7 +1,7 @@
 html {
   background-color: #fff;
   font-family: Montserrat, serif;
-  color: #707070;
+  color: #302d2d;
 }
 
 .name {
@@ -41,19 +41,13 @@ html {
 }
 
 .btn {
-  color: #fff;
-  padding-top: .15em;
-  padding-bottom: .15em;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
-  background-color: #e67a72;
-  border-color: #e67a72;
 }
 
-
 .btn:hover {
-  background-color: #133852;
-  border-color: #133852;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .nav a:focus {
@@ -64,13 +58,9 @@ main h2, h3 {
   color: #133852;
 }
 
-footer a {
+footer a, h3 {
   text-decoration: none;
   color: #133852;
-}
-
-footer h3 {
-  color: #e67a72;
 }
 
 .current {
@@ -79,6 +69,12 @@ footer h3 {
 
 td {
   border-bottom: 0;
+}
+
+.faq {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
 }
 
 @media only screen and (min-width: 38em) {
