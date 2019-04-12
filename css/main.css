@@ -48,6 +48,7 @@ html {
 .btn:hover {
   background-color: #fff;
   border-color: #fff;
+  color: #133a54;
 }
 
 .nav a:focus {
@@ -75,6 +76,14 @@ td {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+input {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.price {
+  color: #dc6063;
 }
 
 @media only screen and (min-width: 38em) {
