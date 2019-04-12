@@ -77,6 +77,9 @@ footer h3 {
   border-bottom: .3rem solid #133852;
 }
 
+td {
+  border-bottom: 0;
+}
 
 @media only screen and (min-width: 38em) {
 
