@@ -35,6 +35,11 @@ html {
   background-color: #eff1f4;
 }
 
+.whitebg {
+  background-color: #fff;
+  border: 3px solid #eff1f4;
+}
+
 .nav a {
   color: #133852;
   text-decoration: none;
@@ -49,7 +54,7 @@ html {
 
 .btn:hover {
   background-color: #fff;
-  border-color: #133a54;
+  border-color: #fff;
   color: #133a54;
 }
 
@@ -58,14 +63,19 @@ html {
   border-color: #133a54;
 }
 
+.btn-ghost:hover {
+  background-color: #133a54;
+  border-color: #fff;
+}
+
 .nav a:focus {
   outline: 3px solid #73a9fc;
 }
 
 .nav a:hover {
-  background-color: #fff;
-  border-color: #dc6063;
-  color: #dc6063;
+  background-color: #133a54;
+  border-color: #133a54;
+  color: #fff;
 }
 
 footer a:focus {
@@ -120,6 +130,7 @@ input {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
   border-radius: 20px;
 }
+
 @media only screen and (min-width: 38em) {
 
   .logo {
