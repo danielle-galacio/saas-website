@@ -41,14 +41,21 @@ html {
 }
 
 .btn {
-  border-radius: 20px;
+  background-color: #133a54;
+  border-color: #133a54;
+  border-radius: 30px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
 }
 
 .btn:hover {
   background-color: #fff;
-  border-color: #fff;
+  border-color: #133a54;
   color: #133a54;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #133a54;
 }
 
 .nav a:focus {
@@ -56,6 +63,16 @@ html {
 }
 
 .nav a:hover {
+  background-color: #fff;
+  border-color: #dc6063;
+  color: #dc6063;
+}
+
+footer a:focus {
+  outline: 3px solid #73a9fc;
+}
+
+footer a:hover {
   background-color: #fff;
   border-color: #dc6063;
   color: #dc6063;
@@ -94,8 +111,15 @@ input {
 
 .header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+  border-radius: 20px;
 }
 
+.card {
+  background-color: #fff;
+  border: 3px solid #eff1f4;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+  border-radius: 20px;
+}
 @media only screen and (min-width: 38em) {
 
   .logo {
