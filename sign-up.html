@@ -11,12 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat:400,600,700" rel="stylesheet">
 </head>
 <body>
+
   <ul class="skip-links">
     <li><a href="#nav"> Jump to navigation</a></li>
     <li><a href="#main"> Jump to main content</a></li>
   </ul>
 
-  <header role="banner">
+  <header class="header" role="banner">
     <div class="grid grid-middle gutter bgcolor">
       <h1 class="logo push-0 unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
         <i class="icon i-64"><img src="images/main-icon.svg" alt=""></i>
@@ -33,9 +34,26 @@
   </header>
 
   <main role="main" id="main">
-    <section class="max-length gutter-2 pad-t-2">
+    <section>
+      <div class="banner embed embed-16by9">
+        <img class=" signuppic embed-item" src="images/signup-banner-pic.svg" alt="">
+        <div class="banner-content pin-c w-1 max-length gutter text-center">
+          <h2 class="push-1-2">Create a Dex account today.</h2>
+          <p>Infographics? Presentations? Print and media design? Dex has everything for your design needs!</p>
+        </div>
+      </div>
+    </section>
 
-      <form method="post" action="//formspree.io" class="gutter-2">
+    <article class="max-length gutter-2 pad-t-2">
+      <form method="post" action="https://formspree.io/gala0058@algonquinlive.com" class="gutter-2">
+        <div class="push">
+          <label for="name"> Name</label>
+          <input id="name">
+        </div>
+        <div class="push">
+          <label for="number"> Phone number</label>
+          <input id="number" type="number" required>
+        </div>
         <div class="push">
           <label for="email"> Email</label>
           <input id="email" type="email" required>
@@ -44,12 +62,11 @@
           <label for="password"> Password </label>
           <input id="password" required>
         </div>
-        <div>
+        <div class="push-2">
           <button type="submit">Login</button>
         </div>
       </form>
-
-    </section>
+    </article>
   </main>
 
   <footer role="contentinfo" class="gutter pad-t bgcolor">

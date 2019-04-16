@@ -55,6 +55,12 @@ html {
   outline: 3px solid #73a9fc;
 }
 
+.nav a:hover {
+  background-color: #fff;
+  border-color: #dc6063;
+  color: #dc6063;
+}
+
 main h2, h3 {
   color: #133852;
 }
@@ -84,6 +90,10 @@ input {
 
 .price {
   color: #dc6063;
+}
+
+.header {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
 }
 
 @media only screen and (min-width: 38em) {
